@@ -108,16 +108,16 @@ while True:
 ### A. Server Work
 1. Jalankan code server, contoh menggunakan terminal vs code.
 2. Server akan menampilkan ready to conect client
-![](Screenshot/shot1.png)
-2. Jika client sudah terhubung server akan memulai thread mengirimkan warna ke server secara terus meneruh tiap 10 detik.
-![](Screenshot/shot2.png)
+![](screenshot/ss1.png)
+2. Jika client sudah terhubung server akan memulai thread mengirimkan warna ke server secara terus menerus tiap 10 detik.
+![](screenshot/ss2.png)
 
 ### B. Client Work
 1. Jalankan code client, contoh menggunakan terminal vs code. Untuk menjalankan beberapa client dibutuhkan terminal yang berbeda.
 2. Jika server sudah hidup maka client dapat langsung terhubung ke server
-![](Screenshot/shot4.png)
+![](screenshot/ss3.png)
 3. Server akan mengirim kan warna setiap 10 detik setelah client menjawab, untuk merefresh jawaban server. Untuk output pertama server memiliki error tidak mengirim warna harus di pancing dengan jawaban lalu program akan normal.
-![](Screenshot/shot5.png)
+![](screenshot/ss4.png)
 4. Client hanya mempunyai waktu 5 detik untuk menjawab dan menunggu 10 detik untuk menerima jawaban dan warna lain dari server
 ![](Screenshot/shot6.png)
 
