@@ -1,9 +1,9 @@
 # UTS Pemrograman Jaringan
-Nama : Wahyu Adam Anandika
-NIM : 1203220046
+Nama : Dimas Febrianto
+NIM : 1203220069
 
 ## Penjelasan Program
-Program ini menggunakan bahasa `Python` menggunakan socket dan protokol UDP. Program ini berisi permainan menerjemahkan warna bahasa inggris yang dikirim dari server dan dijawab oleh client dengan bahasa indonesia. Jika benar maka akan mendapat score 100 dan jika salah score menjadi 0. Program ini menggunakan 2 thread yang pertama untuk mengirim warna dan yang ke dua untuk memberikan jawaban score.
+Program ini ditulis dalam bahasa Python dengan menggunakan socket dan protokol UDP. ini mencakup sebuah permainan di mana server mengirimkan nama warna dalam bahasa Inggris, dan klien harus menerjemahkannya ke dalam bahasa Indonesia. Jika jawabannya benar, klien akan mendapatkan skor 100; jika salah, skornya menjadi 0. Program ini mengimplementasikan 2 thread: satu untuk mengirimkan warna dan yang lainnya untuk menerima jawaban dan memberikan skor.
 
 ## Souce Code Server
 ```python
@@ -111,8 +111,6 @@ while True:
 ![](Screenshot/shot1.png)
 2. Jika client sudah terhubung server akan memulai thread mengirimkan warna ke server secara terus meneruh tiap 10 detik.
 ![](Screenshot/shot2.png)
-3. Jika ada client terhubung lagi maka server akan menampilkan `"Added new client : address"`
-![](Screenshot/shot3.png)
 
 ### B. Client Work
 1. Jalankan code client, contoh menggunakan terminal vs code. Untuk menjalankan beberapa client dibutuhkan terminal yang berbeda.
@@ -122,11 +120,6 @@ while True:
 ![](Screenshot/shot5.png)
 4. Client hanya mempunyai waktu 5 detik untuk menjawab dan menunggu 10 detik untuk menerima jawaban dan warna lain dari server
 ![](Screenshot/shot6.png)
-5. Jika jawaban benar maka akan memberikan score 100 dan jika salah akan memberikan score 0
-- Contoh benar :
-![](Screenshot/shot7.png)
-- Contoh Salah :
-![](Screenshot/shot8.png)
 
 ## Test Case : 1 Server & 10 Client running
 Berikut Screnshot dari server dan client yang dijalankan
