@@ -115,16 +115,18 @@ while True:
 ### B. Client Work
 1. Jalankan code client, contoh menggunakan terminal vs code. Untuk menjalankan beberapa client dibutuhkan terminal yang berbeda.
 2. Jika server sudah hidup maka client dapat langsung terhubung ke server
-![](screenshot/ss3.png)
-3. Server akan mengirim kan warna setiap 10 detik setelah client menjawab, untuk merefresh jawaban server. Untuk output pertama server memiliki error tidak mengirim warna harus di pancing dengan jawaban lalu program akan normal.
 ![](screenshot/ss4.png)
+3. Server akan mengirim kan warna setiap 10 detik setelah client menjawab, untuk merefresh jawaban server. Untuk output pertama server memiliki error tidak mengirim warna harus di pancing dengan jawaban lalu program akan normal.
+![](screenshot/ss3.png)
 4. Client hanya mempunyai waktu 5 detik untuk menjawab dan menunggu 10 detik untuk menerima jawaban dan warna lain dari server
-![](Screenshot/shot6.png)
+![](screenshot/ss5.png)
+5. Jika jawaban benar maka akan memberikan score 100 dan jika salah akan memberikan score 0
+![](screenshot/ss6.png)
 
 ## Test Case : 1 Server & 10 Client running
 Berikut Screnshot dari server dan client yang dijalankan
 - 1 Server & 10 Client running :
-![](Screenshot/shot9.png)
+![](screenshot/sscmd.png)
 
 - Tampilan Server :
-![](Screenshot/shot10.png)
+![](screenshot/sscmd1.png)
